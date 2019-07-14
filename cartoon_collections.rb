@@ -8,7 +8,6 @@ end
 
 def long_planeteer_calls(calls)
     calls.any? { |index| index.length > 4 }
-
 end
 
 def find_the_cheese# code an argument here
