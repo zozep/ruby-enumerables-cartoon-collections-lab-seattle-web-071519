@@ -9,7 +9,7 @@ end
 def long_planeteer_calls(calls)
   i=0
   
-  while i < calls.length do {calls.any? > 4}
+  while i < calls.length do |index|
     i+=1
   end
 end
