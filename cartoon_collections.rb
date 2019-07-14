@@ -4,7 +4,6 @@ end
 
 def summon_captain_planet(planteer_calls)
   return planteer_calls.collect {|index| index.capitalize + "!"}
-
 end
 
 def long_planeteer_calls# code an argument here
