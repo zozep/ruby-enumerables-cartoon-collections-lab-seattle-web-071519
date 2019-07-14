@@ -3,7 +3,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(planteer_calls)
-  return planteer_calls.capitalize.collect {|index| index + "!"}
+  return planteer_calls.collect {|index| index.capitalize + "!"}
 
 end
 
