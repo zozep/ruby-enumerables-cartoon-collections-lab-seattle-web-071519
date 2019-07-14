@@ -17,7 +17,6 @@ def long_planeteer_calls(calls)
     end
     i += 1
   end
-  long_planeteer_calls
 end
 
 def find_the_cheese# code an argument here
