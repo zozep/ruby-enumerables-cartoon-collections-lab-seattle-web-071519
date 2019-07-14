@@ -10,6 +10,12 @@ def long_planeteer_calls(calls)
   i=0
   
   while i < calls.length do |index|
+    if index.any? > 4
+      return TRUE
+    else
+      return FALSE
+    end
+    
     i+=1
   end
 end
